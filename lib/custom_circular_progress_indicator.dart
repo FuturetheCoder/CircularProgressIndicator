@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, prefer_const_constructors_in_immutables
+
 import 'dart:async';
 import 'dart:math';
 import 'dart:ui';
@@ -43,7 +45,6 @@ class _StopButtonState extends State<StopButton> with TickerProviderStateMixin {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     timer.cancel();
     percentageAnimationController.dispose();
     super.dispose();

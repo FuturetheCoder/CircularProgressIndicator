@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, prefer_const_declarations, prefer_initializing_formals
+
 import 'dart:math'as math;
  
 import 'package:flutter/material.dart';

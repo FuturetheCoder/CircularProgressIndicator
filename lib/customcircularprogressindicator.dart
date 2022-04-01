@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, sized_box_for_whitespace
 // THIS PROJECT EXPLAINS HOW TO USE PAINTER TO DESIGN A STATIC  CIRCULAR PROGRESS INDICATOR
 import 'dart:math';
 

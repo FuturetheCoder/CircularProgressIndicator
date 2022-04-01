@@ -1,9 +1,9 @@
 
 
-// ignore_for_file: prefer_const_constructors, unnecessary_new, use_key_in_widget_constructors
+// ignore_for_file: prefer_const_constructors, unnecessary_new, use_key_in_widget_constructors, use_full_hex_values_for_flutter_colors
 //THIS FILE EXPLAINS HOW TO USE CIRCULAR PROGRESS INDICATOR WIDGET TO MAKE PROGRESS
 //CASE SCENARIOS LIKE TO REPRESENT PROGRESS, OR LOADING INDICATOR IN YOUR PROJECT
-import 'dart:async';
+
 
 import 'package:flutter/material.dart';
 
@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Flutter Circular Progress Indicator"),
+          title: Text(" Circular Progress Indicator"),
         ),
         body: Container(
           alignment: Alignment.topCenter,
@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             children:[
               Container(
-                child: Text("Indeterminate Progress Indicator",style: TextStyle(fontSize: 18),),
+                child: Text(" Progress Indicator",style: TextStyle(fontSize: 18),),
                 margin: EdgeInsets.all(20),
               ),
               Container(
